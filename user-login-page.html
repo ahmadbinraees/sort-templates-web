@@ -7,22 +7,38 @@
     <title>User Login</title>
     <style>
         .user-area {
-            background-color: chocolate;
-            text-align: center;
-            margin-top: 10%;
+            background-color: rgb(69, 92, 92);
+        }
+        .input-box {
+            padding-top: 250px;
+            padding-bottom: 250px;
+            padding-left: 43%;
+        }
+        .input-box input{
+            width: 200px;
+        }
+        .button {
+            padding-left: 30px;
+            padding-right: 30px;
         }
     </style>
 </head>
 <body>
     <main>
         <form class="user-area">
-            <label for="email">User Name:</label>
-            <br>
-            <input type="email" name="user-name" id="user-name">
-            <br>
-            <label for="password">User Password</label>
-            <br>
-            <input type="password" name="password" id="user-password">
+            <div class="input-box">
+                <label for="email">User Name:</label>
+                <br>
+                <input type="email" name="user-name" id="user-name">
+                <br>
+                <br>
+                <label for="password">User Password</label>
+                <br>
+                <input type="password" name="password" id="user-password">
+                <br>
+                <br>
+                <button class="button" type="submit">Login</button>
+            </div>
         </form>
     </main>
 </body>
