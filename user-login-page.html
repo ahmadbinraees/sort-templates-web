@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
     <style>
-        body{
+        body {
             margin: 0;
         }
-        .user-area {
-            background-color: rgb(255, 210, 125);
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(239, 252, 165);
         }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
+        .user-area {
+            background-color: bisque;
+        }
+
         .input-box {
             padding-top: 250px;
             padding-bottom: 250px;
             padding-left: 43%;
         }
-        .input-box input{
+
+        .input-box input {
             width: 200px;
         }
+
         .button {
             padding-left: 30px;
             padding-right: 30px;
         }
     </style>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <form class="user-area">
             <div class="input-box">
@@ -45,4 +86,5 @@
         </form>
     </main>
 </body>
+
 </html>
